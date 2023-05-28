@@ -1,0 +1,182 @@
+<html lang="en">
+    <head>
+        <meta charset="=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E bike - BikOO</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">   
+</head><script src="https://kit.fontawesome.com/16dc9b612e.js" crossorigin="anonymous"></script>
+<body style="background: radial-gradient(#fff,rgb(50, 46, 43));">   
+        <div id="con" class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="#con">Home</a></li>
+                        <li><a href="#prod">Products</a></li>
+                        <li><a href="#foo">About</a></li>
+                        <li><a href="#foo">Social Media</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" style="filter:grayscale(100%)" width="30px" height="30px" >
+                <img src="menu.png" style="filter:grayscale(100%)" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>  
+
+
+<!-----------------------single------------------->
+
+<div class="small-container single-product anim">
+    <div class="row">
+        <div class="col-2">
+            <img src="gallery-0.png" width="100%" id="product-img">
+            
+            <br>
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="gallery-1.jpg" width="100%" class="small-img
+                    ">
+                </div>
+                <div class="small-img-col">
+                    <img src="gallery-2.jpg" width="100%" >
+                </div>
+                <div class="small-img-col">
+                    <img src="gallery-3.jpg" width="100%" >
+                </div>
+                <div class="small-img-col">
+                    <img src="gallery-4.jpg" width="100%" >
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="col-2">
+            <p>Home / Bike</p>
+            <h1>Hero Sprint</h1>
+            <h4>79,399 <i class="fa-solid fa-indian-rupee-sign"></i></h4>
+            <select> 
+                <option>Select size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to Box</a>
+            <h3>Product details <i class="fa fa-indent"></i></h3><br>
+            <p style="color: black;">It's a Mtb bike with 21 gear mechanism and the body is made
+                upof allow material of high grades and standards.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div id="prod" class="small-container">
+<div class="row row-2">
+    <h2>All Products</h2>
+    <select >
+        <option> Default Shorting</option>
+        <option> Short by price</option>
+        <option> Popular</option>
+        <option> Ratings</option>
+    </select>
+</div>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-2.png">
+            <h4>Btwin MTB</h4>
+            <div class="ratings">
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa fa-star fa-fade" style="color:#d6ed0d ;"></i>
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>32,290 <i class="fa-solid fa-indian-rupee-sign"></i></p>
+        </div>
+        <div class="col-4">
+            <img src="product-3.png">
+            <h4>hero BMX</h4>
+            <div class="ratings">
+                <i class="fa fa-star fa-fade" style="color:#d6ed0d ;"></i>
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>16,549 <i class="fa-solid fa-indian-rupee-sign"></i></p>
+        </div>
+        <div class="col-4">
+            <img src="product-4.png">
+            <h4>Trek</h4>
+            <div class="ratings">
+                <i class="fa fa-star fa-fade" style="color: #d6ed0d;"></i>
+                <i class="fa fa-star fa-fade" style="color:#d6ed0d ;"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>52,910 <i class="fa-solid fa-indian-rupee-sign"></i></p>
+        </div>
+    </div>
+</div> 
+<!--------------------footer------------------>
+<div id="foo" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the App</h3>
+                <p>Android and ios</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png">
+                <p>Our purpose is to motivate you to keep healthy and 
+                    make the benefits of cycling </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>follow us</h3>
+                <ul>
+                    <li>Devloper page</li>
+                    <li>Instagram </li><a href="https://www.instagram.com/srivsnu/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <li>youtube</li><a href="https://www.youtube.com/@srivsnu" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - srivsnu   <i class="fa-solid fa-check"></i></p>
+    </div>
+</div>
+<!---------------------------- js ----------------------------------->
+    <script>
+        var menuItems= document.getElementById("menuItems");
+        menuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if (menuItems.style.maxHeight == "0px") 
+            {
+                menuItems.style.maxHeight="200px";
+            }
+        else
+            {
+           menuItems.style.maxHeight="0px" ;
+            }
+        }
+    </script>
+</body>
+</html>
